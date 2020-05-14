@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!--our code starts here -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+     <!--  character tags - are used in seo ...seracg engine optimiarion- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="this is the description">
+    <meta name="keywords" content="html,css,js">
+
+    <title>image and anchor tabs</title>
+<!-- this is to include css -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <h1>heading</h1>
+    <!-- this is a paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium minus facere praesentium eius natus id architecto possimus evenietn <strong>this is mtc</strong>   libero ipsa, <br> in cumque. Dignissimos mollitia labore nisi aperiam autem sed ex, <em>this is emphazised</em> id saepe dolor, reiciendis  <b>this is  bld</b> hic voluptatibus rerum accusantium modi!</p>
+    <p>this is paragrapgh</p>
+    <!-- ctr+enter for next line without mouse -->
+
+    <a href="https://google.com" target="_blank">go to google></a>
+    <a href="https://facebook.com" target="_blank">go to facebook></a>
+    <a href="https://linkedn.com"target="_blank">go to linkedn></a>
+    <a href="/xyz.html" target="_blank">name</a>
+    <!-- image is not found so alt -->
+    <img src="abx.jpg" alt="no image found">
+    <!-- unsplash website for free and default imagess -->
+    <img src="https://source.unsplash.com/user/erondu/600x900" alt="remote image">    
+</body>
+</html> 
