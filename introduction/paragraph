@@ -1,0 +1,39 @@
+this codes are wriiten on visual studio code and few shortcut keys are given in comment
+
+<!DOCTYPE html>
+
+<!--our code starts here -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+     <!--  character tags - are used in seo ...seracg engine optimiarion- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="this is the description">
+    <meta name="keywords" content="html,css,js">
+
+    <title>Hello html</title>
+<!-- this is to include css -->
+<link rel="stylesheet" href="shrishty.css">
+<!-- this is hoe to include js -->
+<script src="shrishty.js"></script>
+</head>
+
+<body>
+    <!-- there are 6 heading elements in html  -->
+    <h1>hiiii</h1>
+    <h2>`hello</h2>
+    <h3>hii</h3>
+    <h4>hiii</h4>
+    <h5>hey</h5>
+    <h6>hiii</h6>
+    <!-- this is a paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusantium minus facere praesentium eius natus id architecto possimus evenietn <strong>this is mtc</strong>   libero ipsa, <br> in cumque. Dignissimos mollitia labore nisi aperiam autem sed ex, <em>this is emphazised</em> id saepe dolor, reiciendis  <b>this is  bld</b> hic voluptatibus rerum accusantium modi!</p>
+    <p>this is paragrapgh</p>
+    <p>firtst</p>
+    <p>second</p>
+    <p>third</p>
+    <p>fourth</p>
+    <!-- ctr+enter for next line without mouse -->
+
+      </body>
+    </html> 
