@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+</head>
+<body>
+    hello again
+</body>
+<ul type="circle">
+    <li>this is first line</li>
+    <li>this is second line</li>
+    <ul type="square">
+        <li>this is first line</li>
+        <li>this is second line</li>
+        <li>this is third line</li>
+    </ul>
+    
+    <li>this is FOURTH line</li>
+
+</ul>
+<ol type="I">
+    <li>this is first line</li>
+    <li>this is second line</li>
+    <li>this is third line</li>
+</ol>
+<!-- table -->
+<h1>table of html</h1>
+<table>
+    <thead>
+<tr>
+<th>emplye id</th>
+<th>emp name</th>
+</tr>
+<tbody>
+    <tr>
+        <td>abc</td>
+        <td>111</td>
+        
+    </tr>
+    <tr>
+        <td>xyz</td>
+        <td>158</td>
+    </tr>
+</tbody>
+</thead>
+</table>   
+</html>
