@@ -1,0 +1,26 @@
+<!-- developer tools -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers tools</title>
+    <style>
+        p{
+            color:hotpink;
+            font-size: medium;
+             font-style:italic;
+            background-color: indigo;
+        }
+        .bgyellow
+        {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1><strong>DEVLOPER TOOLS IN CSS</strong></h1>
+        <p>learning for developer tools</p>
+    
+</body>
+</html>
