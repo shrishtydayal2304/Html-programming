@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>use of emmet makes code easy</title>
+     
+</head>
+<body>
+<-- here..i have created a class  name container -->
+    <div class="container">
+  <--  emmet is used when we want to give many items in our html and to save time -->
+ <--use : .class_name{message -$}*n -->
+ <-- $ is used to give the serial no...for the n rows -->
+ <--ex for the below code: div.item{this is item-$}*9  and presss tab -->
+
+<div class="item">this is item-1</div>
+<div class="item">this is item-2</div>
+<div class="item">this is item-3</div>
+<div class="item">this is item-4</div>
+<div class="item">this is item-5</div>
+<div class="item">this is item-6</div>
+<div class="item">this is item-7</div>
+<div class="item">this is item-8</div>
+<div class="item">this is item-9</div>
+
+
+
+    </div>
+    
+</body>
+</html>
