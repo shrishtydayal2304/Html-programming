@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC</title>
+    <-- THIS IS THE CODE HOW TO ADD LOGO IN THE TITLE -->
+    <link href="/logo.png" rel="icon">
+  
+
+</head>
+
+<body>
+    <h1>We can add logo in the title of our html</h1>
+    
+</body>
+
+</html>
