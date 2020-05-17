@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>this is a form</h2>
+    <form action="xyx.php">
+        <div>
+            name : <input type="text"><br>
+        </div>
+
+        <div>
+            roll no: <input type=" text">
+        </div>
+        <div>
+            email : <input type="email" name="my email">
+        </div>
+        <div>
+            date : <input type=" date " name="mydate">
+        </div>
+        <input type="submit" value="submit">
+        <br>
+        <div>
+            are you eligible?: <input type="checkbox" name="myelgibiity">
+        </div>
+        <div>
+            Gender:male<input type="radio" name="myelgibiity"> Gender:female<input type="radio" name="myelgibiity">
+        </div>
+        <input type="submit" value="submit now">
+        <input type="reset" value="reset now">
+
+
+    </form>
+
+</body>
+
+</html>
