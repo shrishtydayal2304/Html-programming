@@ -1,0 +1,35 @@
+<!-- this is about inline ,exteranl and internal css  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <!-- inline >> external and internal as they depends on the precedence order  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css learning</title>
+    <style>
+    <!-- internal css   -->
+    </style>
+    <style>
+        p{
+            
+            background-color: greenyellow !important;
+            /* we know overriding occurs but this word "important" does not alaows to override  */
+            /* but if we write !important next to a style ..it will be taken as priority negleting the precdence order  */
+            width: 400px;
+        }
+        
+        /* inline  css>>intrenal ....so we have commneted inline to see the effect of internal css */
+        /* here order of precedence is followed..thus now the exteranl css working will be shown as it is wriiten after internal */
+        /* since overiding occurs */
+        </style>
+        <link rel="stylesheet" href="shrishty.css">
+</head>
+<body>
+    <h1>this is heading for csss</h1>
+    <!-- inline css ::but it is not good approch -->
+    <!-- <p style="color: red; background-color:yellow">here we will now start learning about css</p> -->
+  <p >here we will now start learning about css</p>
+
+</body>
+</html>
