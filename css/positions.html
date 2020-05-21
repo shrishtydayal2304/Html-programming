@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* css position: static,absolute,realtive,default,fixed,sticky */
+        .box{
+            display:inline-block;
+            color:black;
+            border:2px solid red;
+            width: 200px;
+            height: 100px;
+            margin:2px;
+        }
+        #box3{
+            /* position: relative; */
+            /* relative to its normal postion it will move left right top bootm */
+           /* position: fixed  : postion realtive to the browser window;
+           right:4px;
+           bottom: 2px;
+             */
+        /* absolute realtive to the positon of its isrt parent */
+            /* top: 30px;;
+            left:200px;
+            right:5px; */
+/* sticky */
+position: sticky;
+top:3px;
+
+
+        }
+        .container{
+            border: 2px solid black;
+            background-color: chartreuse;
+            height:4000px ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">chat with us</div>
+    <div class="box" id="box4">4</div>
+
+    </div>
+    
+</body>
+</html>
