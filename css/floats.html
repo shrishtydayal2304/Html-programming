@@ -1,0 +1,85 @@
+<!-- floats -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aligment</title>
+    <style>
+        * {}
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif font-size: 10px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 1150px;
+            border: 3px solid pink;
+            margin: auto;
+            background-color: darkkhaki;
+
+
+
+
+        }
+        h1{
+            padding: 3px;
+            background-position: center;
+        }
+
+        .item {
+            border: 3px solid rgb(255, 0, 0);
+            margin: 12px 3px;
+            padding: 10px 5px;
+            background: rgb(70, 200, 1);
+        }
+
+        #fruits {
+            text-align: center;
+            float: left;
+            width: 50%;
+        }
+
+        #computer {
+            float: right;
+            width: 40%;
+
+
+        }
+
+        #tofee {
+            clear: both;
+            width: 80%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. A iure, velit non
+                mollitia voluptatum doloremque et itaque earum, eveniet, veritatis maxime laborum praesentium obcaecati.
+                Ab, natus?</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, assumenda.
+                Excepturi sunt harum, sequi veniam placeat, illo adipisci itaque ullam ducimus dolore quae eveniet
+                voluptatibus et!</p>
+        </div>
+        <div id="tofee" class="item">
+            <h3>tofee</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia,
+                accusantium officia nam eligendi dolor aut voluptas aliquam recusandae reiciendis corrupti dolores
+                quibusdam sunt placeat quam molestiae, vero aliquid similique vitae expedita sapiente qui.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
