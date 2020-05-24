@@ -1,0 +1,74 @@
+<!-- pseudo selectors and more desigining -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pseudo selectore and more desigining</title>
+    <style>
+
+        .container{
+            border:2px solid red;
+            background-color:rgb(223,254,211);
+            padding:60px;
+            width:500px;
+            margin:50px auto;
+            border-radius: 4px solid black;
+            box-sizing: content-box;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+a:hover{
+    color:rgb(8, 73, 5);
+    background-color: rgb(177, 180, 185);
+}
+
+        .btn{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            background-color:red;
+            padding: 6px;
+          border: 2px solid gray;
+            cursor:pointer;
+            font: 1em sans-serif;
+            font-size: 16px;
+           
+            border-radius: 6px;
+        }
+        a:visited{
+            background-color:yellow;
+
+        }
+a:active{
+    background-color: darkblue;
+}
+.btn:hover{
+    border:5px solid red;
+    border-radius: 8px;
+    color: darkmagenta;
+    background-color: darksalmon;
+     
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos facilis aliquid, commodi fugiat suscipit, saepe
+            quisquam excepturi architecto dignissimos temporibus labore modi. Blanditiis sequi facere quidem veniam
+            excepturi veritatis consequatur accusamus saepe optio reiciendis.</p>
+
+            <a href="https://facebook.com" class="btn">Read more</a>
+            <button class="btn">read more</button>
+
+    </div>
+
+</body>
+
+</html>
