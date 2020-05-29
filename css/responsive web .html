@@ -1,0 +1,47 @@
+<!-- media querey...responsive web design -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meda query</title>
+    <style>
+        .box{
+            font-size: 30px;
+            text-align: center;
+            background-color:red;
+            color: chartreuse;
+            display:none;
+
+        }
+        @media (max-width: 300px)
+        {
+            #box1{
+                background-color: royalblue;
+                display: block;
+            }
+        }
+        @media (min-width: 500px) and (max-width: 800px)
+        {
+            #box2{
+                background-color:seagreen;
+                display: block;
+            }
+        }
+        @media  (min-width: 800px)
+        {
+            #box3{
+                background-color:darkblue;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">phone</div>
+    <div class="box" id="box2">pc</div>
+    <div class="box" id="box3">laptop</div>
+    <div class="box" id="box4">computer</div>
+    
+</body>
+</html>
