@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>attribute and nth child</title>
+    <style>
+        input {
+            display: block;
+
+            font-size: small;
+            font-weight: bold;
+        }
+
+        .container {
+            margin: auto;
+            display: block;
+            width: 400px;
+
+        }
+
+        input[type='text'] {
+            padding: 10px;
+            border: 2px solid palevioletred;
+        }
+
+        a[target] {
+            font-size: x-large;
+            color: red;
+            border: 2px solid black;
+        }
+
+        input[type='email'] {
+            color: royalblue;
+            border: 3px solid gray;
+        }
+
+        /* this will apply css to 3rd child  */
+        /* li:nth-child(3)
+{
+    color: greenyellow;
+} */
+        li:nth-child(2n+0) {
+            color: indigo;
+            /* text-align: center; */
+
+        }
+
+        li:nth-child(odd) {
+            color: yellowgreen;
+        }
+
+        li:nth-child(even) {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><a href="https://google.com" target="_blank">go to google</a></h1>
+        <form action="" class="form-content">
+            <input type="text" placeholder="ënter your name">
+            <input type="email" placeholder="enter your email">
+            <input type="password" placeholder="ënter your password">
+            <input type="submit" value="submit">
+        </form>
+        <ul>
+            <li class="item" id="item-1">item 1</li>
+            <li class="item" id="item-1">item 2</li>
+            <li class="item" id="item-1">item 3</li>
+            <li class="item" id="item-1">item 4</li>
+
+        </ul>
+
+
+    </div>
+
+</body>
+
+</html>
